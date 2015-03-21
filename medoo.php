@@ -7,7 +7,7 @@
  * Copyright 2015, Angel Lai
  * Released under the MIT license
  */
-namespace medoo;
+namespace lmz\medoo;
 
 class medoo
 {
