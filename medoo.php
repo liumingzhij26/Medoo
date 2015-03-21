@@ -7,6 +7,8 @@
  * Copyright 2015, Angel Lai
  * Released under the MIT license
  */
+namespace medoo;
+
 class medoo
 {
 	// General
@@ -133,7 +135,7 @@ class medoo
 				$commands[] = "SET NAMES '" . $this->charset . "'";
 			}
 
-			$this->pdo = new PDO(
+			$this->pdo = new \PDO(
 				$dsn,
 				$this->username,
 				$this->password,
