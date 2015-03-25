@@ -22,10 +22,9 @@
 
 ```php
 // Include Medoo
-require_once 'medoo.php';
 
 // Initialize
-$database = new medoo([
+$database = new \lmz\medoo\medoo([
     'database_type' => 'mysql',
     'database_name' => 'name',
     'server' => 'localhost',
