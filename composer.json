@@ -9,7 +9,7 @@
 		{"name": "Angel Lai", "email": "angel.lai.cat@gmail.com"}
 	],
 	"require": {
-		"php": ">=5.1",
+		"php": ">=5.3",
 		"ext-pdo": "*"
 	},
 	"suggest": {
