@@ -79,7 +79,7 @@ class medoo
             switch ($type) {
                 case 'mariadb':
                     $type = 'mysql';
-
+                    break;
                 case 'mysql':
                     if ($this->socket) {
                         $dsn = $type . ':unix_socket=' . $this->socket . ';dbname=' . $this->database_name;
